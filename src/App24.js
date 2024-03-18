@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom/client";
 export default function App24() {
   const [name, setName] = useState("");
   const prevName = useRef(0);
